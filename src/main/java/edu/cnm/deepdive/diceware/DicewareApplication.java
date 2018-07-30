@@ -15,7 +15,7 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Res
 @SpringBootApplication
 public class DicewareApplication extends ResourceServerConfigurerAdapter {
 
-  @Value("${oauth.clientID}")
+  @Value("${oauth.clientId}")
   private String clientId;
 
   public static void main(String[] args) {
